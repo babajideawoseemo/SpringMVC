@@ -31,7 +31,7 @@ public class EmployeeDaoImpl implements EmployeeDao{
 		logger.info("Storing employee in the database" + employee.toString());
 		currentSession.save(employee);
 		
-		logger.info("Successfully, committing transaction");
+		logger.info("Successful, committing transaction");
 //		currentSession.getTransaction().commit();
 	}
 }
