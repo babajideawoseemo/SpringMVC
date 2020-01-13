@@ -5,25 +5,23 @@
     <artifactId>springdemo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>springDemo-data</artifactId>
+  <artifactId>springDemo_service</artifactId>
   
   <properties>
   	<maven.compiler.source>13</maven.compiler.source>
   	<maven.compiler.target>13</maven.compiler.target>
   </properties>
-  	<dependencies>
-  	<!-- https://mvnrepository.com/artifact/org.springframework/spring-tx -->
+  
+  <dependencies>
+  	
+  	<!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
 <dependency>
-    <groupId>org.springframework</groupId>
-    <artifactId>spring-tx</artifactId>
-    <version>5.2.2.RELEASE</version>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-core</artifactId>
+    <version>3.2.4</version>
+    <scope>test</scope>
 </dependency>
   	
-	<dependency>
-	    <groupId>com.mchange</groupId>
-	    <artifactId>c3p0</artifactId>
-	    <version>0.9.5.5</version>
-	</dependency>
-	</dependencies>
   
+  </dependencies>
 </project>
