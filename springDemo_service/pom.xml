@@ -21,7 +21,11 @@
     <version>3.2.4</version>
     <scope>test</scope>
 </dependency>
-  	
+  	<dependency>
+  		<groupId>com.springdemo</groupId>
+  		<artifactId>springDemo-data</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   
   </dependencies>
 </project>
