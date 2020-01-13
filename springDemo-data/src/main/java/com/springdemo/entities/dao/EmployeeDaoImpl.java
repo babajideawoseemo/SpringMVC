@@ -25,7 +25,7 @@ public class EmployeeDaoImpl implements EmployeeDao{
 		logger.info("Getting current session");
 		Session currentSession = sessionFactory.getCurrentSession();
 		
-//		logger.info("starting a transaction");
+	logger.info("starting a transaction");
 //		currentSession.beginTransaction();
 		
 		logger.info("Storing employee in the database" + employee.toString());
