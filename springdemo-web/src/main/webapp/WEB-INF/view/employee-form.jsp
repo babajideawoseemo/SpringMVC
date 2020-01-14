@@ -4,29 +4,22 @@
 <html>
 
 <head>
-	<title>Save Customer</title>
+	<title>Add Employee</title>
 
-	<link type="text/css"
-		  rel="stylesheet"
-		  href="${pageContext.request.contextPath}/resources/css/style.css">
-
-	<link type="text/css"
-		  rel="stylesheet"
-		  href="${pageContext.request.contextPath}/resources/css/add-customer-style.css">
 </head>
 
 <body>
 	
-	<div id="wrapper">
-		<div id="header">
-			<h2>CRM - Customer Relationship Manager</h2>
+	<div>
+		<div>
+			<h2>Employee Manager</h2>
 		</div>
 	</div>
 
-	<div id="container">
-		<h3>Save Customer</h3>
+	<div>
+		<h3>Save Employee</h3>
 	
-		<form:form action="saveCustomer" modelAttribute="customer" method="POST">
+		<form:form action="addEmployee" modelAttribute="employee" method="POST">
 
 			<!-- need to associate this data with customer id -->
 			<form:hidden path="id" />
@@ -35,7 +28,7 @@
 				<tbody>
 					<tr>
 						<td><label>First name:</label></td>
-						<td><form:input path="firstName" /></td>
+						<td><form:input path="firstname" /></td>
 					</tr>
 				
 					<tr>

@@ -14,7 +14,7 @@ public class Employee {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id")
-	private Long id;
+	private int id;
 	
 	@Column(name = "first_name")
 	private String firstname;
@@ -34,11 +34,15 @@ public class Employee {
 		this.email = email;
 	}
 
-	public Long getId() {
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public int getId() {
 		return id;
 	}
 
-	public void setId(Long id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 

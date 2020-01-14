@@ -17,7 +17,7 @@
 	<!-- Add support for component scanning -->
 	<context:component-scan base-package="com.springdemo" />
 
-	<import resource = "classpath:/springDemo_service-context.xml" />
+	<import resource = "classpath:/springdemo-service-context.xml" />
 
 	<!-- Define Spring MVC view resolver -->
 	<bean
