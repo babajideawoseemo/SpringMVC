@@ -26,7 +26,6 @@
     <version>6.0.0.Alpha4</version>
 </dependency>
 
-
   <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
 <dependency>
     <groupId>org.springframework</groupId>
@@ -69,5 +68,6 @@
   <modules>
   	<module>springDemo-data</module>
   	<module>springDemo_service</module>
+    <module>springdemo-web</module>
   </modules>
 </project>
